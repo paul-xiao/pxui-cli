@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "pxui": "node index.js"
+    "pxui": "node bin/index.js"
   },
   "scripts": {
-    "release": "node index.js"
+    "dev": "node bin/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "inquirer": "^7.2.0"
   }
 }
